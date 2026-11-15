@@ -1,52 +1,42 @@
 # 🔐 Caesarova šifra – Python
 
-Jednoduchá konzolová aplikace pro šifrování a dešifrování textu pomocí Caesarovy šifry.
+## 📖 O projektu
 
-Projekt slouží k procvičení základů programování v jazyce Python.
+Tento Python skript byl vytvořen pro výukové video v rámci programátorského školení **AN Move Academy**.
 
-## 📋 Zadání projektu
+Cílem projektu je prakticky ukázat princip Caesarovy šifry a využití základních principů programování v Pythonu.
 
-Vytvoř program, který umožní uživateli zašifrovat nebo dešifrovat text pomocí číselného posunu znaků.
+## ⚙️ Funkce programu
 
-### Požadavky
+Skript umožňuje uživateli zašifrovat nebo dešifrovat text pomocí číselného posunu znaků.
 
-- Výběr režimu `Encrypt` (šifrování) nebo `Decrypt` (dešifrování).
-- Zadání číselného posunu.
-- Zadání textové zprávy.
-- Šifrování a dešifrování pomocí posunu znaků ve znakové sadě.
-- Podpora malých a velkých písmen, číslic a vybraných speciálních znaků.
-- Ošetření neplatných uživatelských vstupů.
-- Zobrazení výsledné zprávy.
+Program nabízí výběr režimu `Encrypt` (šifrování) nebo `Decrypt` (dešifrování).
+
+Uživatel následně zadá číselný posun a textovou zprávu. Program provede posun znaků v definované znakové sadě a zobrazí výsledný text.
+
+Skript podporuje malá a velká písmena, číslice, speciální znaky a vybrané české znaky.
+
+Součástí je také kontrola uživatelských vstupů.
 
 ## 🛠️ Použité technologie
 
-- Python 3.10+
-- Knihovny `string` a `os`
-- Funkce a podmínky
-- Cykly `while` a `for`
+- **Python 3**
+- `string` – předdefinované znakové sady
+- `os` – vyčištění terminálu
+- Funkce, cykly a podmínky
 - Ošetření výjimek `try / except`
-- Operátor modulo `%`
+- Operátor modulo `%` – výpočet posunu znaků
 
-## ▶️ Spuštění
+## ⚠️ Upozornění
 
-Program spusť v terminálu:
+**Jedná se pouze o výukový skript, nikoliv o bezpečnou metodu šifrování.**
 
-```bash
-python main.py
-```
+Caesarova šifra je jednoduchá substituční šifra, kterou lze snadno prolomit i bez znalosti použitého posunu.
 
-## ⚠️ Bezpečnostní upozornění
+Skript slouží výhradně k demonstraci základů Pythonu a principu šifrování. Není vhodný pro ochranu hesel, osobních údajů ani jiných citlivých informací.
 
-**Caesarova šifra není bezpečná kryptografická metoda.**
+---
 
-Jedná se o jednoduchý způsob nahrazování znaků, který lze snadno prolomit i bez znalosti použitého posunu.
+**© 2026 BlackCap Dev**
 
-Program je určen výhradně pro vzdělávací účely a demonstraci základních principů šifrování.
-
-**Nepoužívej jej k ochraně hesel, osobních údajů ani jiných citlivých informací.**
-
-## 🎯 Cíl projektu
-
-Procvičit práci s řetězci, cykly, podmínkami, funkcemi a operátorem modulo v Pythonu.
-
-Pochopit princip Caesarovy šifry a rozdíl mezi jednoduchým šifrovacím algoritmem a skutečně bezpečnou kryptografií.
+**Autor: Jiří Hyroš**
